@@ -89,14 +89,17 @@ class _LoginPageState extends LoginViewImpl {
                   const SizedBox(
                     height: 20,
                   ),
-                  Padding(
-                    padding: const EdgeInsets.only(left: 6),
-                    child: Text(
-                      'Forgot password?',
-                      style:
-                          context.textStyles.textSecondaryFontMedium.copyWith(
-                        color: context.colors.yellow,
-                        fontSize: 14,
+                  Align(
+                    alignment: Alignment.bottomRight,
+                    child: Padding(
+                      padding: const EdgeInsets.only(left: 6),
+                      child: Text(
+                        'Forgot password?',
+                        style:
+                            context.textStyles.textSecondaryFontMedium.copyWith(
+                          color: context.colors.yellow,
+                          fontSize: 14,
+                        ),
                       ),
                     ),
                   ),

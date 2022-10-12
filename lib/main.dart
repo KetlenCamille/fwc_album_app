@@ -5,5 +5,5 @@ import 'app/core/config/env/env.dart';
 
 void main() async {
   await Env.i.load();
-  runApp(const FwcAlbumApp());
+  runApp(FwcAlbumApp());
 }
