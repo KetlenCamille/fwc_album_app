@@ -60,7 +60,7 @@ class _SplashPageState extends SplashViewImpl {
             Align(
               alignment: Alignment.bottomCenter,
               child: Padding(
-                padding: EdgeInsets.only(bottom: 20),
+                padding: const EdgeInsets.only(bottom: 20),
                 child: Image.asset('assets/images/bandeiras.png'),
               ),
             )

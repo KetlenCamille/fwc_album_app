@@ -10,9 +10,8 @@ import 'package:fwc_album_app/app/pages/home/home_route.dart';
 import 'package:fwc_album_app/app/pages/splash/splash_route.dart';
 import 'package:fwc_album_app/app/repository/auth/auth_repository.dart';
 import 'package:fwc_album_app/app/repository/auth/auth_repository_impl.dart';
-
 import '../pages/my_stickers/my_sticker_route.dart';
-import '../pages/my_stickers/my_stickers_page.dart';
+import '../pages/sticker_detail/sticker_detail_route.dart';
 
 class FwcAlbumApp extends StatelessWidget {
   final navigatorKey = GlobalKey<NavigatorState>();
@@ -39,6 +38,7 @@ class FwcAlbumApp extends StatelessWidget {
           '/auth/register': (_) => const RegisterRoute(),
           '/home': (_) => const HomeRoute(),
           '/my-stickers': (_) => const MyStickerRoute(),
+          '/sticker-detail': (_) => const StickerDetailRoute()
         },
       ),
     );

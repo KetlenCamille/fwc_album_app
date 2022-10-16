@@ -22,7 +22,7 @@ class _StickerGroupFilterState extends State<StickerGroupFilter> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.all(8),
+      padding: const EdgeInsets.all(8),
       child: SmartSelect<String>.multiple(
         title: 'Filter',
         tileBuilder: (context, state) {

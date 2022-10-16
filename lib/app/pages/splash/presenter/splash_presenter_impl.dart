@@ -9,7 +9,7 @@ class SplashPresenterImpl implements SplashPresenter {
   Future<void> checkLogin() async {
     _view.showLoader();
     final sp = await SharedPreferences.getInstance();
-    final accessToken = sp.getString('accesstoken');
+    final accessToken = sp.getString('accessToken');
     if (accessToken != null) {
       _view.logged(true);
     } else {
